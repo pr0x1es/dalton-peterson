@@ -45,6 +45,27 @@ export default function Home() {
       <div>
         <Shorts />
       </div>
+
+      <footer>
+        <div className="border-2 p-6 mt-7">
+          <h1 className="font-bold">Credits</h1>
+          <h1 className="italic">Favicon info:</h1>
+          <Link
+            href="https://creativecommons.org/licenses/by/4.0/"
+            className="hover:italic hover:font-bold hover:transition-all transition-all"
+          >
+            CC-BY-4 License
+          </Link>
+          <br />
+          <Link
+            href="https://twemoji.twitter.com/"
+            className="hover:italic hover:font-bold hover:transition-all transition-all"
+          >
+            Link to original favicon source library.
+          </Link>
+          <h2>No changes were made.</h2>
+        </div>
+      </footer>
     </>
   );
 }
