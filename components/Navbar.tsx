@@ -16,7 +16,7 @@ export default function Navbar() {
       <div>
         <DropdownMenu>
           <DropdownMenuTrigger>
-            <Menu size={35} />
+            <Menu size={45} />
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuLabel>
@@ -24,13 +24,22 @@ export default function Navbar() {
             </DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <Link href="/">Home</Link>
+              <Link href="/" className="text-lg">
+                Home
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <Link href="/blogs">Blog</Link>
+              <Link href="/blogs" className="text-lg">
+                Blog
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <Link href="https://github.com/pr0x1es/pr0x1es.github.io">GitHub</Link>
+              <Link
+                href="https://github.com/pr0x1es/pr0x1es.github.io"
+                className="text-lg"
+              >
+                GitHub
+              </Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
